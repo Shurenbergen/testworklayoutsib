@@ -1,0 +1,356 @@
+
+/*INTRO visitki kuponi*/
+.intro {
+    height: 844px;
+    width: 1200px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333333;
+
+    left: 240px;
+    top: 201px;
+    border-radius: 0px;
+    position: absolute;
+    background: #FAFAFA;
+}
+
+.probka {
+
+    float: left;
+    height: 171px;
+    width: 347px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    position: absolute;
+    margin: 40px 0 0 60px;
+    right: 0px;
+    bottom: 0.3px;
+    background: #FFFFFF;
+
+}
+
+.probka__logo {
+    position: relative;
+    float: right;
+    height: 161px;
+    width: 134px;
+    margin: 0px 0px 0 10px;
+    left: 0px;
+    right: 55px;
+    top: 0px;
+    bottom: 0.3px;
+}
+.hover__logo {
+
+    float: right;
+    height: 171px;
+    width: 347px;
+    margin: -165.3px 0px 0 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0.3px;
+
+}
+
+.hover__logo img {
+
+}
+.hover__logo img.second {
+    float: right;
+    height: 171px;
+    width: 347px;
+    margin: -175.3px 0px 0 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0.3px;
+    opacity:0;
+    filter:alpha (opacity=0);
+}
+.hover__logo:hover img.second {
+
+    /*float: right;*/
+    /*height: 171px;*/
+    /*width: 347px;*/
+    /*margin: -165.3px 0px 0 0px;*/
+    /*left: 0px;*/
+    /*right: 0px;*/
+    /*top: 0px;*/
+    /*bottom: 0.3px;*/
+    opacity:1;
+    filter:alpha (opacity=100);
+}
+
+.animate2:hover img.first, img.animate2, img.first:hover {
+    /*float: right;*/
+    /*height: 171px;*/
+    /*width: 347px;*/
+    /*margin: -165.3px 0px 0 0px;*/
+    /*left: 0px;*/
+    /*right: 0px;*/
+    /*top: 0px;*/
+    /*bottom: 0.3px;*/
+    opacity:0;
+    filter:alpha (opacity=0);
+}
+
+.couponname {
+    /*float: inside;*/
+    padding: -20px 20px;
+    margin: 16px 0px 0 20px;
+    height: 16px;
+    width: 307px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    /*letter-spacing: 0.1em;*/
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.couponsimple {
+    padding: -20px 20px;
+    margin: 4px 0px 0 20px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    height: 16px;
+    left: 0px;
+    right: 0px;
+    top: 20px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    opacity: 0.5;
+
+    color: #000000;
+}
+
+.interest {
+    margin: 43px 0px 0 20px;
+    height: 28px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 28px;
+    /* identical to box height, or 78% */
+
+    display: flex;
+    align-items: center;
+
+    color: #DF212D;
+}
+.discount {
+    margin: 6px 0px 0 20px;
+    height: 16px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.sushisell {
+
+    height: 171px;
+    width: 347px;
+    position: absolute;
+    border-radius: 10px;
+    margin: 221px 0 0 60px;
+    padding: 0px 0 0 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0.3px;
+
+    background: #FFFFFF;
+
+}
+.firefood {
+
+    height: 171px;
+    width: 347px;
+    position: absolute;
+    border-radius: 10px;
+    margin: 402px 0 0 60px;
+    padding: 0px 0 0 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0.3px;
+
+    background: #FFFFFF;
+
+}
+
+.germanfilm {
+    height: 171px;
+    width: 347px;
+    position: absolute;
+    border-radius: 10px;
+    margin: 583px 0 0 60px;
+    padding: 0px 0 0px 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0.3px;
+
+    background: #FFFFFF;
+}
+
+.germanfilm2 {
+    height: 171px;
+    width: 347px;
+    position: absolute;
+    border-radius: 10px;
+    margin:40px 0 0 427px;
+    padding: 0px 0 0 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0.3px;
+
+    background: #FFFFFF;
+}
+
+.mangosteen {
+    height: 171px;
+    width: 347px;
+    position: absolute;
+    border-radius: 10px;
+    margin:221px 0 0 427px;
+    padding: 0px 0 0 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0.3px;
+
+    background: #FFFFFF;
+}
+
+.aromacremeria {
+    height: 171px;
+    width: 347px;
+    position: absolute;
+    border-radius: 10px;
+    margin:402px 0 0 427px;
+    padding: 0px 0 0 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0.3px;
+
+    background: #FFFFFF;
+}
+
+.cakesvalery {
+    height: 171px;
+    width: 347px;
+    position: absolute;
+    border-radius: 10px;
+    margin:583px 0 0 427px;
+    padding: 0px 0 0 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0.3px;
+
+    background: #FFFFFF;
+}
+
+.cakesvalery2 {
+    height: 171px;
+    width: 347px;
+    position: absolute;
+    border-radius: 10px;
+    margin:40px 0 0 793px;
+    padding: 0px 0 0 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0.3px;
+
+    background: #FFFFFF;
+}
+
+.tabakatelenok {
+    height: 171px;
+    width: 347px;
+    position: absolute;
+    border-radius: 10px;
+    margin:221px 0 0 793px;
+    padding: 0px 0 0 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0.3px;
+
+    background: #FFFFFF;
+}
+
+.probka2 {
+    height: 171px;
+    width: 347px;
+    position: absolute;
+    border-radius: 10px;
+    margin:402px 0 0 793px;
+    padding: 0px 0 0 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0.3px;
+
+    background: #FFFFFF;
+}
+
+.sushisell2 {
+    height: 171px;
+    width: 347px;
+    position: absolute;
+    border-radius: 10px;
+    margin:583px 0 0 793px;
+    padding: 0px 0 0 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0.3px;
+
+    background: #FFFFFF;
+}

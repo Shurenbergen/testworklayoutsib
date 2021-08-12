@@ -1,0 +1,130 @@
+/*Header*/
+.header {
+
+    height: 201px;
+    width: 1200px;
+    border-radius: 0px;
+    border-bottom: 1px solid;
+    border-color: #E5E5E5;
+    background: #FFFFFF;
+    /* Развлечения */
+
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 22.45%;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+
+    color: #000000;
+
+    opacity: 0.85;
+
+    margin-left: 240px;
+}
+
+.header_inner {
+
+    margin: 109px 60px 40px 60px;
+}
+.headertitle {
+    /* Развлечения */
+    position: absolute;
+    padding: 40px 60px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 22.45%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+
+    color: #000000;
+
+    opacity: 0.85;
+}
+.header__search {
+    margin: 0px 0px 0px 0px;
+    padding-top: 30px ;
+}
+/*.nav__linktitle {*/
+/*    !* Какой магазин вам нужен? *!*/
+
+/*    width: 1020px;*/
+/*    margin: 40px 20px;*/
+/*    position: absolute;*/
+/*    height: 28px;*/
+/*    left: 44px;*/
+/*    right: 16px;*/
+/*    top: calc(50% - 28px/2);*/
+
+/*    font-family: Open Sans;*/
+/*    font-style: normal;*/
+/*    font-weight: normal;*/
+/*    font-size: 18px;*/
+/*    line-height: 28px;*/
+/*    !* identical to box height, or 156% *!*/
+
+/*    border: 1px solid rgba(51, 51, 51, 0.2);*/
+/*    box-sizing: border-box;*/
+
+/*    border-radius: 50px;*/
+
+/*    display: flex;*/
+/*    align-items: center;*/
+
+/*    color: rgba(0, 0, 0, 0.45);*/
+/*}*/
+
+* {box-sizing: border-box;}
+form {
+
+    position: relative;
+    width: 1080px;
+    height: 52px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+input, button {
+
+    border: none;
+    outline: none;
+    background: transparent;
+}
+input {
+    margin: 12px 12px 12px 12px;
+    width: 1020px;
+    height: 28px;
+    padding-left: 44px;
+}
+button {
+    height: 13.33px;
+    width: 13.33px;
+    position: absolute;
+    top: 10.5px;
+    left: 20.17px;
+    cursor: pointer;
+}
+button:before {
+
+    /*content: "\f002";*/
+    /*font-family: FontAwesome;*/
+    font-size: 18px;
+    color: #F9F0DA;
+
+}

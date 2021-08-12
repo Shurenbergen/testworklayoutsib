@@ -1,0 +1,297 @@
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333333;
+
+    height: 844px;
+    width: 1200px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    position: absolute;
+    background: #FAFAFA;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/*Container*/
+/* Desktop 1440x900 */
+
+.container {
+    width: 100%;
+    position: relative;
+    max-width: 1440px;
+    max-height: 1024px;
+
+    background: #FAFAFA;
+}
+
+
+/*Sidebar (aside)*/
+
+.header__search {
+    /* bg */
+    padding: 60.17px 10.17px;
+    width: 20px;
+    height: 20px;
+    left: 36px;
+    top: calc(50% - 20px/2);
+    margin-left: 0px;
+    margin-right: 10.5px;
+    margin-top: -20.17px;
+
+}
+.aside {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333333;
+
+    /* Sidebar / desktop */
+    position: absolute;
+    width: 240px;
+    left: 0px;
+    top: 0px;
+    bottom: -21px;
+    background: #F3F4F9;
+
+}
+
+.aside__logo {
+    padding: 41px;
+    height: 49.92363739013672px;
+    width: 49.92362976074219px;
+    left: 41px;
+    top: 0.03790283203125px;
+    border-radius: 0px;
+
+}
+
+.aside__inner {
+    /* display: flex;
+     */
+    justify-content: space-between;
+
+}
+/* Активная/текущая ссылка */
+.aside a.active {
+
+    color: #34ABE0;
+}
+
+/* Ссылки при наведении мыши */
+.aside a:hover:not(.active) {
+
+    color: #34ABE0;
+}
+
+/* BECO */
+
+.logo {
+    height: 24px;
+    width: 61px;
+    left: 60px;
+    top: 13px;
+
+    padding: -10px 78px;
+    margin: -44px 54px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+}
+.catalog__logo {
+
+    padding:76px 42px;
+    width: 24px;
+    height: 24px;
+    left: 76px;
+    top: 19px;
+    /*width: 24px;*/
+    /*height: 24px;*/
+    /*left: 40px;*/
+    /*top: 18px;*/
+}
+.health__logo {
+    /* Vector */
+
+    height: 18px;
+    width: 20px;
+    left: 2px;
+    top: 3px;
+    float: left;
+    margin: 0px 0 0 -31px;
+}
+
+.beauty__logo {
+    height: 18px;
+    width: 20px;
+    left: 2px;
+    top: 3px;
+    float: left;
+    margin: 0px 0 0 -31px;
+}
+.entertainment__logo {
+    height: 18px;
+    width: 20px;
+    left: 2px;
+    top: 3px;
+    float: left;
+    margin: 0px 0 0 -31px;
+}
+
+.car__logo {
+    height: 18px;
+    width: 20px;
+    left: 2px;
+    top: 3px;
+    float: left;
+    margin: 0px 0 0 -31px;
+}
+.nav {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.nav__link {
+    color: #333333;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    text-decoration: #34ABE0;
+}
+
+.catalog {
+    /* Каталог */
+    float: left;
+    /*padding:76px 42px;*/
+    margin: -73px 0 0 76px;
+    width: 122px;
+    height: 22px;
+    left: 76px;
+    top: 19px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+.health {
+    /* Здоровье */
+    /*padding: 76px 42px;*/
+    float: left;
+    margin: -19px 0 0 76px;
+    width: 122px;
+    height: 22px;
+    left: 76px;
+    top: 19px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+.beauty {
+    /* Красота */
+    float: left;
+    /*padding: 76px 42px;*/
+    margin: 39px 0 0 76px;
+    width: 122px;
+    height: 22px;
+    left: 76px;
+    top: 19px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+.entertainment {
+
+    float: left;
+    /*padding: 76px 42px;*/
+    margin: 39px 0 0 76px;
+    width: 119px;
+    height: 22px;
+    left: 76px;
+    top: 21px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #34ABE0;
+}
+
+.car {
+    /* Авто */
+    float: left;
+    /*padding: 76px 42px;*/
+    margin: 39px 0 0 76px;
+
+    width: 122px;
+    height: 22px;
+    left: 76px;
+    top: 19px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+
+
+/* На экранах шириной менее 768 пикселей превратить боковую панель в верхнюю панель */
+@media screen and (max-width: 768px) {
+    .aside {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+}
+
+/* На экранах размером менее 320 пикселей панель отображать вертикально, а не горизонтально */
+@media screen and (max-width: 320px) {
+    .aside a {
+        text-align: center;
+        float: none;
+    }
+}
+
